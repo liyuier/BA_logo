@@ -517,7 +517,8 @@ html {
 .collapse[open]>.collapse-content,.collapse-open>.collapse-content,.collapse:focus:not(.collapse-close)>.collapse-content,.collapse:not(.collapse-close)>input[type=checkbox]:checked~.collapse-content,.collapse:not(.collapse-close)>input[type=radio]:checked~.collapse-content {
     visibility: visible;
     min-height: -moz-fit-content;
-    min-height: fit-content
+    min-height: fit-content;
+    min-height: auto;
 }
 
 @media (hover: hover) {
