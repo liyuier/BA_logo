@@ -4,7 +4,7 @@ import socketserver
 
 # 定义服务器的主机和端口
 host = 'localhost'
-port = 8000
+port = 8010
 
 # 切换到网页文件所在的目录
 web_dir = './'  # 将此处替换为你的网页文件所在的目录
